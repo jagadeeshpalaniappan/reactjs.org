@@ -9,7 +9,7 @@
 module.exports = {
   pathPrefix: "/reactjs",
   siteMetadata: {
-    title: 'React: A JavaScript library for building user interfaces',
+    title: 'React: A JavaScript library for building user interfaces333',
     siteUrl: 'https://reactjs.org',
     rssFeedTitle: 'React',
     rssFeedDescription: 'A JavaScript library for building user interfaces',
