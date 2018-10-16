@@ -134,7 +134,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    A JavaScript library for building user interfaces111
                   </p>
                   <Flex
                     valign="center"
