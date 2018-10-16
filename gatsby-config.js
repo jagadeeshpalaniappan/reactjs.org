@@ -7,7 +7,7 @@
 'use strict';
 
 module.exports = {
-  pathPrefix: "/reactjs",
+  pathPrefix: "/reactdoc",
   siteMetadata: {
     title: 'React: A JavaScript library for building user interfaces',
     siteUrl: 'https://reactjs.org',
