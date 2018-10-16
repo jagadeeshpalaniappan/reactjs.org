@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[React]]></title><description><![CDATA[A JavaScript library for building user interfaces]]></description><link>https://reactjs.org</link><generator>RSS for Node</generator><lastBuildDate>Tue, 16 Oct 2018 18:34:42 GMT</lastBuildDate><item><title><![CDATA[Create React App 2.0: Babel 7, Sass, and More]]></title><description><![CDATA[<p>Create React App 2.0 has been released today, and it brings a year’s worth of improvements in a single dependency update.</p>
-<p>While React itself <a href="/reactdoc/docs/create-a-new-react-app.html">doesn’t require any build dependencies</a>, it can be challenging to write a complex app without a fast test runner, a production minifier, and a modular codebase. Since the very first release, the goal of <a href="https://github.com/facebook/create-react-app">Create React App</a> has been to help you focus on what matters the most — your application code — and to handle build and testing setup for you.</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[React]]></title><description><![CDATA[A JavaScript library for building user interfaces]]></description><link>https://reactjs.org</link><generator>RSS for Node</generator><lastBuildDate>Tue, 16 Oct 2018 21:30:08 GMT</lastBuildDate><item><title><![CDATA[Create React App 2.0: Babel 7, Sass, and More]]></title><description><![CDATA[<p>Create React App 2.0 has been released today, and it brings a year’s worth of improvements in a single dependency update.</p>
+<p>While React itself <a href="/reactjs/docs/create-a-new-react-app.html">doesn’t require any build dependencies</a>, it can be challenging to write a complex app without a fast test runner, a production minifier, and a modular codebase. Since the very first release, the goal of <a href="https://github.com/facebook/create-react-app">Create React App</a> has been to help you focus on what matters the most — your application code — and to handle build and testing setup for you.</p>
 <p>Many of the tools it relies on have since released new versions containing new features and performance improvements: <a href="https://babeljs.io/blog/2018/08/27/7.0.0">Babel 7</a>, <a href="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4">webpack 4</a>, and <a href="https://jestjs.io/blog/2018/05/29/jest-23-blazing-fast-delightful-testing.html">Jest 23</a>. However, updating them manually and making them work well together takes a lot of effort. And this is exactly what <a href="https://github.com/facebook/create-react-app/graphs/contributors">Create React App 2.0 contributors</a> have been busy with for the past few months: <strong>migrating the configuration and dependencies so that you don’t need to do it yourself.</strong></p>
 <p>Now that Create React App 2.0 is out of beta, let’s see what’s new and how you can try it!</p>
 <blockquote>
@@ -10,7 +10,7 @@
 <p>Here’s a short summary of what’s new in this release:</p>
 <ul>
 <li>🎉 More styling options: you can use <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-sass-stylesheet">Sass</a> and <a href="https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-modules-stylesheet">CSS Modules</a> out of the box.</li>
-<li>🐠 We updated to <a href="https://babeljs.io/blog/2018/08/27/7.0.0">Babel 7</a>, including support for the <a href="/reactdoc/docs/fragments.html#short-syntax">React fragment syntax</a> and many bugfixes.</li>
+<li>🐠 We updated to <a href="https://babeljs.io/blog/2018/08/27/7.0.0">Babel 7</a>, including support for the <a href="/reactjs/docs/fragments.html#short-syntax">React fragment syntax</a> and many bugfixes.</li>
 <li>📦 We updated to <a href="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4">webpack 4</a>, which automatically splits JS bundles more intelligently.</li>
 <li>🃏 We updated to <a href="https://jestjs.io/blog/2018/05/29/jest-23-blazing-fast-delightful-testing.html">Jest 23</a>, which includes an <a href="https://jestjs.io/blog/2018/05/29/jest-23-blazing-fast-delightful-testing#interactive-snapshot-mode">interactive mode</a> for reviewing snapshots.</li>
 <li>💄 We added <a href="https://preset-env.cssdb.org/features#stage-3">PostCSS</a> so you can use new CSS features in old browsers.</li>
@@ -63,7 +63,7 @@
 <h2 id="thanks"><a href="#thanks" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Thanks</h2>
 <p>This release wouldn’t be possible without our wonderful community of contributors. We’d like to thank <a href="https://github.com/andriijas">Andreas Cederström</a>, <a href="https://github.com/clemmy">Clement Hoang</a>, <a href="https://github.com/existentialism">Brian Ng</a>, <a href="https://github.com/kentcdodds">Kent C. Dodds</a>, <a href="https://github.com/viankakrisna">Ade Viankakrisna Fadlil</a>, <a href="https://github.com/ai">Andrey Sitnik</a>, <a href="https://github.com/ro-savage">Ro Savage</a>, <a href="https://github.com/Fabianopb">Fabiano Brito</a>, <a href="https://github.com/iansu">Ian Sutherland</a>, <a href="https://github.com/petetnt">Pete Nykänen</a>, <a href="https://github.com/jeffposnick">Jeffrey Posnick</a>, <a href="https://github.com/bugzpodder">Jack Zhao</a>, <a href="https://github.com/sokra">Tobias Koppers</a>, <a href="https://github.com/hzoo">Henry Zhu</a>, <a href="https://github.com/arcanis">Maël Nison</a>, <a href="https://github.com/lixiaoyan">XiaoYan Li</a>, <a href="https://github.com/themre">Marko Trebizan</a>, <a href="https://github.com/mareksuscak">Marek Suscak</a>, <a href="https://github.com/miraage">Mikhail Osher</a>, and many others who provided feedback and testing for this release.</p>]]></description><link>https://reactjs.org/blog/2018/10/01/create-react-app-v2.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/10/01/create-react-app-v2.html</guid><pubDate>Mon, 01 Oct 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[Introducing the React Profiler]]></title><description><![CDATA[<p>React 16.5 adds support for a new DevTools profiler plugin.
 This plugin uses React’s <a href="https://github.com/reactjs/rfcs/pull/51">experimental Profiler API</a> to collect timing information about each component that’s rendered in order to identify performance bottlenecks in React applications.
-It will be fully compatible with our upcoming <a href="/reactdoc/blog/2018/03/01/sneak-peek-beyond-react-16.html">time slicing and suspense</a> features.</p>
+It will be fully compatible with our upcoming <a href="/reactjs/blog/2018/03/01/sneak-peek-beyond-react-16.html">time slicing and suspense</a> features.</p>
 <p>This blog post covers the following topics:</p>
 <ul>
 <li><a href="#profiling-an-application">Profiling an application</a></li>
@@ -92,7 +92,7 @@ It will be fully compatible with our upcoming <a href="/reactdoc/blog/2018/03/01
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-53c76.png"
+    href="/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -111,11 +111,11 @@ It will be fully compatible with our upcoming <a href="/reactdoc/blog/2018/03/01
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="New DevTools "profiler" tab"
         title=""
-        src="/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-acf85.png"
-        srcset="/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-c1418.png 210w,
-/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-5d5d8.png 420w,
-/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-acf85.png 840w,
-/reactdoc/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-53c76.png 1012w"
+        src="/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-acf85.png"
+        srcset="/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-c1418.png 210w,
+/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-5d5d8.png 420w,
+/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-acf85.png 840w,
+/reactjs/static/devtools-profiler-tab-4da6b55fc3c98de04c261cd902c14dc3-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -133,7 +133,7 @@ Read more about how to use this bundle at <a href="https://fb.me/react-profiling
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-53c76.png"
+    href="/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -152,11 +152,11 @@ Read more about how to use this bundle at <a href="https://fb.me/react-profiling
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Click "record" to start profiling"
         title=""
-        src="/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-acf85.png"
-        srcset="/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-c1418.png 210w,
-/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-5d5d8.png 420w,
-/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-acf85.png 840w,
-/reactdoc/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-53c76.png 1012w"
+        src="/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-acf85.png"
+        srcset="/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-c1418.png 210w,
+/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-5d5d8.png 420w,
+/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-acf85.png 840w,
+/reactjs/static/start-profiling-bae8d10e17f06eeb8c512c91c0153cff-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -170,7 +170,7 @@ When you are finished profiling, click the “Stop” button.</p>
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-53c76.png"
+    href="/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -189,11 +189,11 @@ When you are finished profiling, click the “Stop” button.</p>
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Click "stop" when you are finished profiling"
         title=""
-        src="/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-acf85.png"
-        srcset="/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-c1418.png 210w,
-/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-5d5d8.png 420w,
-/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-acf85.png 840w,
-/reactdoc/static/stop-profiling-45619de03bed468869f7a0878f220586-53c76.png 1012w"
+        src="/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-acf85.png"
+        srcset="/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-c1418.png 210w,
+/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-5d5d8.png 420w,
+/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-acf85.png 840w,
+/reactjs/static/stop-profiling-45619de03bed468869f7a0878f220586-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -215,7 +215,7 @@ Commits are displayed in a bar chart near the top of the profiler:</p>
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png"
+    href="/reactjs/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -234,10 +234,10 @@ Commits are displayed in a bar chart near the top of the profiler:</p>
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Bar chart of profiled commits"
         title=""
-        src="/reactdoc/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png"
-        srcset="/reactdoc/static/commit-selector-bd72dec045515d59be51c944e902d263-69e48.png 210w,
-/reactdoc/static/commit-selector-bd72dec045515d59be51c944e902d263-3b0aa.png 420w,
-/reactdoc/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png 601w"
+        src="/reactjs/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png"
+        srcset="/reactjs/static/commit-selector-bd72dec045515d59be51c944e902d263-69e48.png 210w,
+/reactjs/static/commit-selector-bd72dec045515d59be51c944e902d263-3b0aa.png 420w,
+/reactjs/static/commit-selector-bd72dec045515d59be51c944e902d263-8ef72.png 601w"
         sizes="(max-width: 601px) 100vw, 601px"
       />
     </span>
@@ -254,7 +254,7 @@ You can click on a bar (or the left/right arrow buttons) to select a different 
 In some cases you may end up with <em>too many commits</em> to easily process.
 The profiler offers a filtering mechanism to help with this.
 Use it to specify a threshold and the profiler will hide all commits that were <em>faster</em> than that value.</p>
-<p><img src="/reactdoc/filtering-commits-683b9d860ef722e1505e5e629df7ef7e.gif" alt="Filtering commits by time"></p>
+<p><img src="/reactjs/filtering-commits-683b9d860ef722e1505e5e629df7ef7e.gif" alt="Filtering commits by time"></p>
 <h3 id="flame-chart"><a href="#flame-chart" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flame chart</h3>
 <p>The flame chart view represents the state of your application for a particular commit.
 Each bar in the chart represents a React component (e.g. <code class="gatsby-code-text">App</code>, <code class="gatsby-code-text">Nav</code>).
@@ -263,7 +263,7 @@ The size and color of the bar represents how long it took to render the componen
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-53c76.png"
+    href="/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -282,11 +282,11 @@ The size and color of the bar represents how long it took to render the componen
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Example flame chart"
         title=""
-        src="/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-acf85.png"
-        srcset="/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-c1418.png 210w,
-/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-5d5d8.png 420w,
-/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-acf85.png 840w,
-/reactdoc/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-53c76.png 1012w"
+        src="/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-acf85.png"
+        srcset="/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-c1418.png 210w,
+/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-5d5d8.png 420w,
+/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-acf85.png 840w,
+/reactjs/static/flame-chart-3046f500b9bfc052bde8b7b3b3cfc243-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -307,12 +307,12 @@ The <code class="gatsby-code-text">Router</code> component was the “most expen
 Most of this time was due to two of its children, <code class="gatsby-code-text">Nav</code> (8.4ms) and <code class="gatsby-code-text">Route</code> (7.9ms).
 The rest of the time was divided between its remaining children or spent in the component’s own render method.</p>
 <p>You can zoom in or out on a flame chart by clicking on components:
-<img src="/reactdoc/zoom-in-and-out-39ba82394205242af7c37ccb3a631f4d.gif" alt="Click on a component to zoom in or out"></p>
+<img src="/reactjs/zoom-in-and-out-39ba82394205242af7c37ccb3a631f4d.gif" alt="Click on a component to zoom in or out"></p>
 <p>Clicking on a component will also select it and show information in the right side panel which includes its <code class="gatsby-code-text">props</code> and <code class="gatsby-code-text">state</code> at the time of this commit.
 You can drill into these to learn more about what the component actually rendered during the commit:</p>
-<p><img src="/reactdoc/props-and-state-1f4d023f1a0f281386625f28df87c78f.gif" alt="Viewing a component&#x27;s props and state for a commit"></p>
+<p><img src="/reactjs/props-and-state-1f4d023f1a0f281386625f28df87c78f.gif" alt="Viewing a component&#x27;s props and state for a commit"></p>
 <p>In some cases, selecting a component and stepping between commits may also provide a hint as to <em>why</em> the component rendered:</p>
-<p><img src="/reactdoc/see-which-props-changed-cc2a8b37bbce52c49a11c2f8e55dccbc.gif" alt="Seeing which values changed between commits"></p>
+<p><img src="/reactjs/see-which-props-changed-cc2a8b37bbce52c49a11c2f8e55dccbc.gif" alt="Seeing which values changed between commits"></p>
 <p>The above image shows that <code class="gatsby-code-text">state.scrollOffset</code> changed between commits.
 This is likely what caused the <code class="gatsby-code-text">List</code> component to re-render.</p>
 <h3 id="ranked-chart"><a href="#ranked-chart" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ranked chart</h3>
@@ -322,7 +322,7 @@ The chart is ordered so that the components which took the longest to render are
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-53c76.png"
+    href="/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -341,11 +341,11 @@ The chart is ordered so that the components which took the longest to render are
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Example ranked chart"
         title=""
-        src="/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-acf85.png"
-        srcset="/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-c1418.png 210w,
-/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-5d5d8.png 420w,
-/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-acf85.png 840w,
-/reactdoc/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-53c76.png 1012w"
+        src="/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-acf85.png"
+        srcset="/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-c1418.png 210w,
+/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-5d5d8.png 420w,
+/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-acf85.png 840w,
+/reactjs/static/ranked-chart-0c81347535e28c9cdef0e94fab887b89-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -367,7 +367,7 @@ The color and height of each bar corresponds to how long the component took to r
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-53c76.png"
+    href="/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -386,11 +386,11 @@ The color and height of each bar corresponds to how long the component took to r
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Example component chart"
         title=""
-        src="/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-acf85.png"
-        srcset="/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-c1418.png 210w,
-/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-5d5d8.png 420w,
-/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-acf85.png 840w,
-/reactdoc/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-53c76.png 1012w"
+        src="/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-acf85.png"
+        srcset="/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-c1418.png 210w,
+/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-5d5d8.png 420w,
+/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-acf85.png 840w,
+/reactjs/static/component-chart-d71275b42c6109e222fbb0932a0c8c09-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -403,12 +403,12 @@ It also shows that each time it rendered, it was the most “expensive” compon
 <p>To view this chart, either double-click on a component <em>or</em> select a component and click on the blue bar chart icon in the right detail pane.
 You can return to the previous chart by clicking the “x” button in the right detail pane.
 You can aso double click on a particular bar to view more information about that commit.</p>
-<p><img src="/reactdoc/see-all-commits-for-a-fiber-99cb4321ded8eb0c21ae5fc673878563.gif" alt="How to view all renders for a specific component"></p>
+<p><img src="/reactjs/see-all-commits-for-a-fiber-99cb4321ded8eb0c21ae5fc673878563.gif" alt="How to view all renders for a specific component"></p>
 <p>If the selected component did not render at all during the profiling session, the following message will be shown:</p>
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-53c76.png"
+    href="/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -427,11 +427,11 @@ You can aso double click on a particular bar to view more information about that
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="No render times for the selected component"
         title=""
-        src="/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-acf85.png"
-        srcset="/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-c1418.png 210w,
-/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-5d5d8.png 420w,
-/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-acf85.png 840w,
-/reactdoc/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-53c76.png 1012w"
+        src="/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-acf85.png"
+        srcset="/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-c1418.png 210w,
+/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-5d5d8.png 420w,
+/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-acf85.png 840w,
+/reactjs/static/no-render-times-for-selected-component-8eb0c37a13353ef5d9e61ae8fc040705-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -445,7 +445,7 @@ You can aso double click on a particular bar to view more information about that
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-53c76.png"
+    href="/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -464,11 +464,11 @@ You can aso double click on a particular bar to view more information about that
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="The interactions panel"
         title=""
-        src="/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-acf85.png"
-        srcset="/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-c1418.png 210w,
-/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-5d5d8.png 420w,
-/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-acf85.png 840w,
-/reactdoc/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-53c76.png 1012w"
+        src="/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-acf85.png"
+        srcset="/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-c1418.png 210w,
+/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-5d5d8.png 420w,
+/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-acf85.png 840w,
+/reactjs/static/interactions-a91a39ac076b71aa7a202aaf46f8bd5a-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -483,7 +483,7 @@ The colored dots along the row represent commits that were related to that inter
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-53c76.png"
+    href="/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -502,11 +502,11 @@ The colored dots along the row represent commits that were related to that inter
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="List of interactions for a commit"
         title=""
-        src="/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-acf85.png"
-        srcset="/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-c1418.png 210w,
-/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-5d5d8.png 420w,
-/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-acf85.png 840w,
-/reactdoc/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-53c76.png 1012w"
+        src="/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-acf85.png"
+        srcset="/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-c1418.png 210w,
+/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-5d5d8.png 420w,
+/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-acf85.png 840w,
+/reactjs/static/interactions-for-commit-9847e78f930cb7cf2b0f9682853a5dbc-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -515,7 +515,7 @@ The colored dots along the row represent commits that were related to that inter
   </a>
     </p>
 <p>You can navigate between interactions and commits by clicking on them:</p>
-<p><img src="/reactdoc/navigate-between-interactions-and-commits-7c66e7686b5242473c87b3d0b4576cf3.gif" alt="Navigate between interactions and commits"></p>
+<p><img src="/reactjs/navigate-between-interactions-and-commits-7c66e7686b5242473c87b3d0b4576cf3.gif" alt="Navigate between interactions and commits"></p>
 <p>The tracing API is still new and we will cover it in more detail in a future blog post.</p>
 <h2 id="troubleshooting"><a href="#troubleshooting" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h2>
 <h3 id="no-profiling-data-has-been-recorded-for-the-selected-root"><a href="#no-profiling-data-has-been-recorded-for-the-selected-root" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>No profiling data has been recorded for the selected root</h3>
@@ -523,7 +523,7 @@ The colored dots along the row represent commits that were related to that inter
 
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-53c76.png"
+    href="/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -542,11 +542,11 @@ The colored dots along the row represent commits that were related to that inter
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="No profiling data has been recorded for the selected root"
         title=""
-        src="/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-acf85.png"
-        srcset="/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-c1418.png 210w,
-/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-5d5d8.png 420w,
-/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-acf85.png 840w,
-/reactdoc/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-53c76.png 1012w"
+        src="/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-acf85.png"
+        srcset="/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-c1418.png 210w,
+/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-5d5d8.png 420w,
+/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-acf85.png 840w,
+/reactjs/static/no-profiler-data-multi-root-0755492a211f5bbb775285c0ff2fdfda-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -556,14 +556,14 @@ The colored dots along the row represent commits that were related to that inter
     </p>
 <p>This message indicates that no performance data was recorded for the root that’s selected in the “Elements” panel.
 In this case, try selecting a different root in that panel to view profiling information for that root:</p>
-<p><img src="/reactdoc/select-a-root-to-view-profiling-data-bdc30593d414b5c8d2ae92027ed11940.gif" alt="Select a root in the &#x22;Elements&#x22; panel to view its performance data"></p>
+<p><img src="/reactjs/select-a-root-to-view-profiling-data-bdc30593d414b5c8d2ae92027ed11940.gif" alt="Select a root in the &#x22;Elements&#x22; panel to view its performance data"></p>
 <h3 id="no-timing-data-to-display-for-the-selected-commit"><a href="#no-timing-data-to-display-for-the-selected-commit" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>No timing data to display for the selected commit</h3>
 <p>Sometimes a commit may be so fast that <code class="gatsby-code-text">performance.now()</code> doesn’t give DevTools any meaningful timing information.
 In this case, the following message will be shown:</p>
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-53c76.png"
+    href="/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-53c76.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -582,11 +582,11 @@ In this case, the following message will be shown:</p>
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="No timing data to display for the selected commit"
         title=""
-        src="/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-acf85.png"
-        srcset="/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-c1418.png 210w,
-/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-5d5d8.png 420w,
-/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-acf85.png 840w,
-/reactdoc/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-53c76.png 1012w"
+        src="/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-acf85.png"
+        srcset="/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-c1418.png 210w,
+/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-5d5d8.png 420w,
+/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-acf85.png 840w,
+/reactjs/static/no-timing-data-for-commit-63b2fb6298feecb179272c467020ed95-53c76.png 1012w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -671,7 +671,7 @@ In this case, the following message will be shown:</p>
 <h2 id="detailed-description"><a href="#detailed-description" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Detailed Description</h2>
 <p>Your app might be affected by this vulnerability only if both of these two conditions are true:</p>
 <ul>
-<li>Your app is <strong>being rendered to HTML using <a href="/reactdoc/docs/react-dom-server.html">ReactDOMServer API</a></strong>, and</li>
+<li>Your app is <strong>being rendered to HTML using <a href="/reactjs/docs/react-dom-server.html">ReactDOMServer API</a></strong>, and</li>
 <li>Your app <strong>includes a user-supplied attribute name in an HTML tag.</strong></li>
 </ul>
 <p>Specifically, the vulnerable pattern looks like this:</p>
@@ -696,7 +696,7 @@ In this case, the following message will be shown:</p>
 <p>We also provide UMD builds of React via a CDN:</p>
 <div class="gatsby-highlight" data-language="html"><pre class="gatsby-code-html"><code class="gatsby-code-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">crossorigin</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/react@16/umd/react.production.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">crossorigin</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/react-dom@16/umd/react-dom.production.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre></div>
-<p>Refer to the documentation for <a href="/reactdoc/docs/installation.html">detailed installation instructions</a>.</p>
+<p>Refer to the documentation for <a href="/reactjs/docs/installation.html">detailed installation instructions</a>.</p>
 <h2 id="changelog"><a href="#changelog" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changelog</h2>
 <h3 id="react-dom-server"><a href="#react-dom-server" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React DOM Server</h3>
 <ul>
@@ -706,8 +706,8 @@ In this case, the following message will be shown:</p>
 <li>
 <p>Fix a crash in the server renderer when an attribute is called <code class="gatsby-code-text">hasOwnProperty</code>. This fix is only available in <code class="gatsby-code-text">react-dom@16.4.2</code>. (<a href="https://github.com/gaearon">@gaearon</a> in <a href="https://github.com/facebook/react/pull/13303">#13303</a>)</p>
 </li>
-</ul>]]></description><link>https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html</guid><pubDate>Wed, 01 Aug 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[You Probably Don't Need Derived State]]></title><description><![CDATA[<p>React 16.4 included a <a href="/reactdoc/blog/2018/05/23/react-v-16-4.html#bugfix-for-getderivedstatefromprops">bugfix for getDerivedStateFromProps</a> which caused some existing bugs in React components to reproduce more consistently. If this release exposed a case where your application was using an anti-pattern and didn’t work properly after the fix, we’re sorry for the churn. In this post, we will explain some common anti-patterns with derived state and our preferred alternatives.</p>
-<p>For a long time, the lifecycle <code class="gatsby-code-text">componentWillReceiveProps</code> was the only way to update state in response to a change in props without an additional render. In version 16.3, <a href="/reactdoc/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes">we introduced a replacement lifecycle, <code class="gatsby-code-text">getDerivedStateFromProps</code></a> to solve the same use cases in a safer way. At the same time, we’ve realized that people have many misconceptions about how to use both methods, and we’ve found anti-patterns that result in subtle and confusing bugs. The <code class="gatsby-code-text">getDerivedStateFromProps</code> bugfix in 16.4 <a href="https://github.com/facebook/react/issues/12898">makes derived state more predictable</a>, so the results of misusing it are easier to notice.</p>
+</ul>]]></description><link>https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/08/01/react-v-16-4-2.html</guid><pubDate>Wed, 01 Aug 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[You Probably Don't Need Derived State]]></title><description><![CDATA[<p>React 16.4 included a <a href="/reactjs/blog/2018/05/23/react-v-16-4.html#bugfix-for-getderivedstatefromprops">bugfix for getDerivedStateFromProps</a> which caused some existing bugs in React components to reproduce more consistently. If this release exposed a case where your application was using an anti-pattern and didn’t work properly after the fix, we’re sorry for the churn. In this post, we will explain some common anti-patterns with derived state and our preferred alternatives.</p>
+<p>For a long time, the lifecycle <code class="gatsby-code-text">componentWillReceiveProps</code> was the only way to update state in response to a change in props without an additional render. In version 16.3, <a href="/reactjs/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes">we introduced a replacement lifecycle, <code class="gatsby-code-text">getDerivedStateFromProps</code></a> to solve the same use cases in a safer way. At the same time, we’ve realized that people have many misconceptions about how to use both methods, and we’ve found anti-patterns that result in subtle and confusing bugs. The <code class="gatsby-code-text">getDerivedStateFromProps</code> bugfix in 16.4 <a href="https://github.com/facebook/react/issues/12898">makes derived state more predictable</a>, so the results of misusing it are easier to notice.</p>
 <blockquote>
 <p>Note</p>
 <p>All of the anti-patterns described in this post apply to both the older <code class="gatsby-code-text">componentWillReceiveProps</code> and the newer <code class="gatsby-code-text">getDerivedStateFromProps</code>.</p>
@@ -726,15 +726,15 @@ In this case, the following message will be shown:</p>
 <li><a href="#what-about-memoization">What about memoization?</a></li>
 </ul>
 <h2 id="when-to-use-derived-state"><a href="#when-to-use-derived-state" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>When to Use Derived State</h2>
-<p><code class="gatsby-code-text">getDerivedStateFromProps</code> exists for only one purpose. It enables a component to update its internal state as the result of <strong>changes in props</strong>. Our previous blog post provided some examples, like <a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props">recording the current scroll direction based on a changing offset prop</a> or <a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html#fetching-external-data-when-props-change">loading external data specified by a source prop</a>.</p>
+<p><code class="gatsby-code-text">getDerivedStateFromProps</code> exists for only one purpose. It enables a component to update its internal state as the result of <strong>changes in props</strong>. Our previous blog post provided some examples, like <a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html#updating-state-based-on-props">recording the current scroll direction based on a changing offset prop</a> or <a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html#fetching-external-data-when-props-change">loading external data specified by a source prop</a>.</p>
 <p>We did not provide many examples, because as a general rule, <strong>derived state should be used sparingly</strong>. All problems with derived state that we have seen can be ultimately reduced to either (1) unconditionally updating state from props or (2) updating state whenever props and state don’t match. (We’ll go over both in more detail below.)</p>
 <ul>
 <li>If you’re using derived state to memoize some computation based only on the current props, you don’t need derived state. See <a href="#what-about-memoization">What about memoization?</a> below.</li>
 <li>If you’re updating derived state unconditionally or updating it whenever props and state don’t match, your component likely resets its state too frequently. Read on for more details.</li>
 </ul>
 <h2 id="common-bugs-when-using-derived-state"><a href="#common-bugs-when-using-derived-state" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Common Bugs When Using Derived State</h2>
-<p>The terms <a href="/reactdoc/docs/forms.html#controlled-components">“controlled”</a> and <a href="/reactdoc/docs/uncontrolled-components.html">“uncontrolled”</a> usually refer to form inputs, but they can also describe where any component’s data lives. Data passed in as props can be thought of as <strong>controlled</strong> (because the parent component <em>controls</em> that data). Data that exists only in internal state can be thought of as <strong>uncontrolled</strong> (because the parent can’t directly change it).</p>
-<p>The most common mistake with derived state is mixing these two; when a derived state value is also updated by <code class="gatsby-code-text">setState</code> calls, there isn’t a single source of truth for the data. The <a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html#fetching-external-data-when-props-change">external data loading example</a> mentioned above may sound similar, but it’s different in a few important ways. In the loading example, there is a clear source of truth for both the “source” prop and the “loading” state. When the source prop changes, the loading state should <strong>always</strong> be overridden. Conversely, the state is overridden only when the prop <strong>changes</strong> and is otherwise managed by the component.</p>
+<p>The terms <a href="/reactjs/docs/forms.html#controlled-components">“controlled”</a> and <a href="/reactjs/docs/uncontrolled-components.html">“uncontrolled”</a> usually refer to form inputs, but they can also describe where any component’s data lives. Data passed in as props can be thought of as <strong>controlled</strong> (because the parent component <em>controls</em> that data). Data that exists only in internal state can be thought of as <strong>uncontrolled</strong> (because the parent can’t directly change it).</p>
+<p>The most common mistake with derived state is mixing these two; when a derived state value is also updated by <code class="gatsby-code-text">setState</code> calls, there isn’t a single source of truth for the data. The <a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html#fetching-external-data-when-props-change">external data loading example</a> mentioned above may sound similar, but it’s different in a few important ways. In the loading example, there is a clear source of truth for both the “source” prop and the “loading” state. When the source prop changes, the loading state should <strong>always</strong> be overridden. Conversely, the state is overridden only when the prop <strong>changes</strong> and is otherwise managed by the component.</p>
 <p>Problems arise when any of these constraints are changed. This typically comes in two forms. Let’s take a look at both.</p>
 <h3 id="anti-pattern-unconditionally-copying-props-to-state"><a href="#anti-pattern-unconditionally-copying-props-to-state" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Anti-pattern: Unconditionally copying props to state</h3>
 <p>A common misconception is that <code class="gatsby-code-text">getDerivedStateFromProps</code> and <code class="gatsby-code-text">componentWillReceiveProps</code> are only called when props “change”. These lifecycles are called any time a parent component rerenders, regardless of whether the props are “different” from before. Because of this, it has always been unsafe to <em>unconditionally</em> override state using either of these lifecycles. <strong>Doing so will cause state updates to be lost.</strong></p>
@@ -804,7 +804,7 @@ In this case, the following message will be shown:</p>
     <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">onChange</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>handleChange<span class="token punctuation">}</span></span> <span class="token attr-name">value</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>email<span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
-<p>In order to reset the value when moving to a different item (as in our password manager scenario), we can use the special React attribute called <code class="gatsby-code-text">key</code>. When a <code class="gatsby-code-text">key</code> changes, React will <a href="/reactdoc/docs/reconciliation.html#keys"><em>create</em> a new component instance rather than <em>update</em> the current one</a>. Keys are usually used for dynamic lists but are also useful here. In our case, we could use the user ID to recreate the email input any time a new user is selected:</p>
+<p>In order to reset the value when moving to a different item (as in our password manager scenario), we can use the special React attribute called <code class="gatsby-code-text">key</code>. When a <code class="gatsby-code-text">key</code> changes, React will <a href="/reactjs/docs/reconciliation.html#keys"><em>create</em> a new component instance rather than <em>update</em> the current one</a>. Keys are usually used for dynamic lists but are also useful here. In our case, we could use the user ID to recreate the email input any time a new user is selected:</p>
 <div class="gatsby-highlight" data-language="jsx"><pre class="gatsby-code-jsx"><code class="gatsby-code-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>EmailInput</span>
   <span class="token attr-name">defaultEmail</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>user<span class="token punctuation">.</span>email<span class="token punctuation">}</span></span>
   <span class="token attr-name">key</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>user<span class="token punctuation">.</span>id<span class="token punctuation">}</span></span>
@@ -856,7 +856,7 @@ In this case, the following message will be shown:</p>
 
   <span class="token comment">// ...</span>
 <span class="token punctuation">}</span></code></pre></div>
-<p>The parent form component could then <a href="/reactdoc/docs/glossary.html#refs">use a <code class="gatsby-code-text">ref</code> to call this method</a>. (<a href="https://codesandbox.io/s/l70krvpykl">Click here to see a demo of this pattern.</a>)</p>
+<p>The parent form component could then <a href="/reactjs/docs/glossary.html#refs">use a <code class="gatsby-code-text">ref</code> to call this method</a>. (<a href="https://codesandbox.io/s/l70krvpykl">Click here to see a demo of this pattern.</a>)</p>
 <p>Refs can be useful in certain cases like this one, but generally we recommend you use them sparingly. Even in the demo, this imperative method is nonideal because two renders will occur instead of one.</p>
 <hr>
 <h3 id="recap"><a href="#recap" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recap</h3>
@@ -1001,7 +1001,7 @@ In this case, the following message will be shown:</p>
 <p><strong>This bug fix will not affect most apps</strong>, but it may cause issues with a small fraction of components. The rare cases where it does matter fall into one of two categories:</p>
 <h3 id="1-avoid-side-effects-in-getderivedstatefromprops"><a href="#1-avoid-side-effects-in-getderivedstatefromprops" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Avoid Side Effects in <code class="gatsby-code-text">getDerivedStateFromProps</code></h3>
 <p>Like the render method, <code class="gatsby-code-text">getDerivedStateFromProps</code> should be a pure function of props and state. Side effects in <code class="gatsby-code-text">getDerivedStateFromProps</code> were never supported, but since it now fires more often than it used to, the recent change may expose previously undiscovered bugs.</p>
-<p>Side effectful code should be moved to other methods: for example, Flux dispatches typically belong inside the originating event handler, and manual DOM mutations belong inside componentDidMount or componentDidUpdate. You can read more about this in our recent post about <a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html">preparing for asynchronous rendering</a>.</p>
+<p>Side effectful code should be moved to other methods: for example, Flux dispatches typically belong inside the originating event handler, and manual DOM mutations belong inside componentDidMount or componentDidUpdate. You can read more about this in our recent post about <a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html">preparing for asynchronous rendering</a>.</p>
 <h3 id="2-compare-incoming-props-to-previous-props-when-computing-controlled-values"><a href="#2-compare-incoming-props-to-previous-props-when-computing-controlled-values" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Compare Incoming Props to Previous Props When Computing Controlled Values</h3>
 <p>The following code assumes <code class="gatsby-code-text">getDerivedStateFromProps</code> only fires on prop changes:</p>
 <div class="gatsby-highlight" data-language="jsx"><pre class="gatsby-code-jsx"><code class="gatsby-code-jsx"><span class="token keyword">static</span> <span class="token function">getDerivedStateFromProps</span><span class="token punctuation">(</span>props<span class="token punctuation">,</span> state<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -1029,7 +1029,7 @@ In this case, the following message will be shown:</p>
     controlledValue<span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
-<p>However, <strong>code that “mirrors” props in state usually contains bugs</strong>, whether you use the newer <code class="gatsby-code-text">getDerivedStateFromProps</code> or the legacy <code class="gatsby-code-text">componentWillReceiveProps</code>. We published a follow-up blog post that explains these problems in more detail, and suggests <a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler solutions that don’t involve <code class="gatsby-code-text">getDerivedStateFromProps()</code></a>.</p>
+<p>However, <strong>code that “mirrors” props in state usually contains bugs</strong>, whether you use the newer <code class="gatsby-code-text">getDerivedStateFromProps</code> or the legacy <code class="gatsby-code-text">componentWillReceiveProps</code>. We published a follow-up blog post that explains these problems in more detail, and suggests <a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler solutions that don’t involve <code class="gatsby-code-text">getDerivedStateFromProps()</code></a>.</p>
 <h2 id="installation"><a href="#installation" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
 <p>React v16.4.0 is available on the npm registry.</p>
 <p>To install React 16 with Yarn, run:</p>
@@ -1039,7 +1039,7 @@ In this case, the following message will be shown:</p>
 <p>We also provide UMD builds of React via a CDN:</p>
 <div class="gatsby-highlight" data-language="html"><pre class="gatsby-code-html"><code class="gatsby-code-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">crossorigin</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/react@16/umd/react.production.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">crossorigin</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/react-dom@16/umd/react-dom.production.min.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre></div>
-<p>Refer to the documentation for <a href="/reactdoc/docs/installation.html">detailed installation instructions</a>.</p>
+<p>Refer to the documentation for <a href="/reactjs/docs/installation.html">detailed installation instructions</a>.</p>
 <h2 id="changelog"><a href="#changelog" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changelog</h2>
 <h3 id="react"><a href="#react" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React</h3>
 <ul>
@@ -1077,7 +1077,7 @@ In this case, the following message will be shown:</p>
 <h3 id="react-reconciler-experimental"><a href="#react-reconciler-experimental" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React Reconciler (Experimental)</h3>
 <ul>
 <li>The <a href="https://github.com/facebook/react/blob/c601f7a64640290af85c9f0e33c78480656b46bc/packages/react-noop-renderer/src/createReactNoop.js#L82-L285">new host config shape</a> is flat and doesn’t use nested objects. (<a href="https://github.com/gaearon">@gaearon</a> in <a href="https://github.com/facebook/react/pull/12792">#12792</a>)</li>
-</ul>]]></description><link>https://reactjs.org/blog/2018/05/23/react-v-16-4.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/05/23/react-v-16-4.html</guid><pubDate>Wed, 23 May 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[React v16.3.0: New lifecycles and context API]]></title><description><![CDATA[<p>A few days ago, we <a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html">wrote a post about upcoming changes to our legacy lifecycle methods</a>, including gradual migration strategies. In React 16.3.0, we are adding a few new lifecycle methods to assist with that migration. We are also introducing new APIs for long requested features: an official context API, a ref forwarding API, and an ergonomic ref API.</p>
+</ul>]]></description><link>https://reactjs.org/blog/2018/05/23/react-v-16-4.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/05/23/react-v-16-4.html</guid><pubDate>Wed, 23 May 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[React v16.3.0: New lifecycles and context API]]></title><description><![CDATA[<p>A few days ago, we <a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html">wrote a post about upcoming changes to our legacy lifecycle methods</a>, including gradual migration strategies. In React 16.3.0, we are adding a few new lifecycle methods to assist with that migration. We are also introducing new APIs for long requested features: an official context API, a ref forwarding API, and an ergonomic ref API.</p>
 <p>Read on to learn more about the release.</p>
 <h2 id="official-context-api"><a href="#official-context-api" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Official Context API</h2>
 <p>For many years, React has offered an experimental API for context. Although it was a powerful tool, its use was discouraged because of inherent problems in the API, and because we always intended to replace the experimental API with a better one.</p>
@@ -1112,7 +1112,7 @@ In this case, the following message will be shown:</p>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
         </div></p>
-<p><a href="/reactdoc/docs/context.html">Learn more about the new context API here.</a></p>
+<p><a href="/reactjs/docs/context.html">Learn more about the new context API here.</a></p>
 <h2 id="createref-api"><a href="#createref-api" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code class="gatsby-code-text">createRef</code> API</h2>
 <p>Previously, React provided two ways of managing refs: the legacy string ref API and the callback API. Although the string ref API was the more convenient of the two, it had <a href="https://github.com/facebook/react/issues/1373">several downsides</a> and so our official recommendation was to use the callback form instead.</p>
 <p>Version 16.3 adds a new option for managing refs that offers the convenience of a string ref without any of the downsides:
@@ -1138,9 +1138,9 @@ In this case, the following message will be shown:</p>
 <p>Callback refs will continue to be supported in addition to the new <code class="gatsby-code-text">createRef</code> API.</p>
 <p>You don’t need to replace callback refs in your components. They are slightly more flexible, so they will remain as an advanced feature.</p>
 </blockquote>
-<p><a href="/reactdoc/docs/refs-and-the-dom.html">Learn more about the new <code class="gatsby-code-text">createRef</code> API here.</a></p>
+<p><a href="/reactjs/docs/refs-and-the-dom.html">Learn more about the new <code class="gatsby-code-text">createRef</code> API here.</a></p>
 <h2 id="forwardref-api"><a href="#forwardref-api" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code class="gatsby-code-text">forwardRef</code> API</h2>
-<p>Generally, React components are declarative, but sometimes imperative access to the component instances and the underlying DOM nodes is necessary. This is common for use cases like managing focus, selection, or animations. React provides <a href="/reactdoc/docs/refs-and-the-dom.html">refs</a> as a way to solve this problem. However, component encapsulation poses some challenges with refs.</p>
+<p>Generally, React components are declarative, but sometimes imperative access to the component instances and the underlying DOM nodes is necessary. This is common for use cases like managing focus, selection, or animations. React provides <a href="/reactjs/docs/refs-and-the-dom.html">refs</a> as a way to solve this problem. However, component encapsulation poses some challenges with refs.</p>
 <p>For example, if you replace a <code class="gatsby-code-text">&lt;button&gt;</code> with a custom <code class="gatsby-code-text">&lt;FancyButton&gt;</code> component, the <code class="gatsby-code-text">ref</code> attribute on it will start pointing at the wrapper component instead of the DOM node (and would be <code class="gatsby-code-text">null</code> for function components). While this is desirable for “application-level” components like <code class="gatsby-code-text">FeedStory</code> or <code class="gatsby-code-text">Comment</code> that need to be encapsulated, it can be annoying for “leaf” components such as <code class="gatsby-code-text">FancyButton</code> or <code class="gatsby-code-text">MyTextInput</code> that are typically used like their DOM counterparts, and might need to expose their DOM nodes.</p>
 <p>Ref forwarding is a new opt-in feature that lets some components take a <code class="gatsby-code-text">ref</code> they receive, and pass it further down (in other words, “forward” it) to a child. In the example below, <code class="gatsby-code-text">FancyButton</code> forwards its ref to a DOM <code class="gatsby-code-text">button</code> that it renders:</p>
 <p><div class="gatsby-highlight">
@@ -1155,10 +1155,10 @@ In this case, the following message will be shown:</p>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>FancyButton</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>ref<span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token plain-text">Click me!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>FancyButton</span><span class="token punctuation">></span></span><span class="token punctuation">;</span></code></pre>
         </div></p>
 <p>This way, components using <code class="gatsby-code-text">FancyButton</code> can get a ref to the underlying <code class="gatsby-code-text">button</code> DOM node and access it if necessary—just like if they used a DOM <code class="gatsby-code-text">button</code> directly.</p>
-<p>Ref forwarding is not limited to “leaf” components that render DOM nodes. If you write <a href="/reactdoc/docs/higher-order-components.html">higher order components</a>, we recommend using ref forwarding to automatically pass the ref down to the wrapped class component instances.</p>
-<p><a href="/reactdoc/docs/forwarding-refs.html">Learn more about the forwardRef API here.</a></p>
+<p>Ref forwarding is not limited to “leaf” components that render DOM nodes. If you write <a href="/reactjs/docs/higher-order-components.html">higher order components</a>, we recommend using ref forwarding to automatically pass the ref down to the wrapped class component instances.</p>
+<p><a href="/reactjs/docs/forwarding-refs.html">Learn more about the forwardRef API here.</a></p>
 <h2 id="component-lifecycle-changes"><a href="#component-lifecycle-changes" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Component Lifecycle Changes</h2>
-<p>React’s class component API has been around for years with little change. However, as we add support for more advanced features (such as <a href="/reactdoc/docs/react-component.html#componentdidcatch">error boundaries</a> and the upcoming <a href="/reactdoc/blog/2018/03/01/sneak-peek-beyond-react-16.html">async rendering mode</a>) we stretch this model in ways that it was not originally intended.</p>
+<p>React’s class component API has been around for years with little change. However, as we add support for more advanced features (such as <a href="/reactjs/docs/react-component.html#componentdidcatch">error boundaries</a> and the upcoming <a href="/reactjs/blog/2018/03/01/sneak-peek-beyond-react-16.html">async rendering mode</a>) we stretch this model in ways that it was not originally intended.</p>
 <p>For example, with the current API, it is too easy to block the initial render with non-essential logic. In part this is because there are too many ways to accomplish a given task, and it can be unclear which is best. We’ve observed that the interrupting behavior of error handling is often not taken into consideration and can result in memory leaks (something that will also impact the upcoming async rendering mode). The current class component API also complicates other efforts, like our work on <a href="https://twitter.com/trueadm/status/944908776896978946">prototyping a React compiler</a>.</p>
 <p>Many of these issues are exacerbated by a subset of the component lifecycles (<code class="gatsby-code-text">componentWillMount</code>, <code class="gatsby-code-text">componentWillReceiveProps</code>, and <code class="gatsby-code-text">componentWillUpdate</code>). These also happen to be the lifecycles that cause the most confusion within the React community. For these reasons, we are going to deprecate those methods in favor of better alternatives.</p>
 <p>We recognize that this change will impact many existing components. Because of this, the migration path will be as gradual as possible, and will provide escape hatches. (At Facebook, we maintain more than 50,000 React components. We depend on a gradual release cycle too!)</p>
@@ -1169,10 +1169,10 @@ In this case, the following message will be shown:</p>
 </blockquote>
 <p>In addition to deprecating unsafe lifecycles, we are also adding a couple of new lifecyles:</p>
 <ul>
-<li><a href="/reactdoc/docs/react-component.html#static-getderivedstatefromprops"><code class="gatsby-code-text">getDerivedStateFromProps</code></a> is being added as a safer alternative to the legacy <code class="gatsby-code-text">componentWillReceiveProps</code>. (Note that <a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html">in most cases you don’t need either of them</a>.)</li>
-<li><a href="/reactdoc/docs/react-component.html#getsnapshotbeforeupdate"><code class="gatsby-code-text">getSnapshotBeforeUpdate</code></a> is being added to support safely reading properties from e.g. the DOM before updates are made.</li>
+<li><a href="/reactjs/docs/react-component.html#static-getderivedstatefromprops"><code class="gatsby-code-text">getDerivedStateFromProps</code></a> is being added as a safer alternative to the legacy <code class="gatsby-code-text">componentWillReceiveProps</code>. (Note that <a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html">in most cases you don’t need either of them</a>.)</li>
+<li><a href="/reactjs/docs/react-component.html#getsnapshotbeforeupdate"><code class="gatsby-code-text">getSnapshotBeforeUpdate</code></a> is being added to support safely reading properties from e.g. the DOM before updates are made.</li>
 </ul>
-<p><a href="/reactdoc/blog/2018/03/27/update-on-async-rendering.html">Learn more about these lifecycle changes here.</a></p>
+<p><a href="/reactjs/blog/2018/03/27/update-on-async-rendering.html">Learn more about these lifecycle changes here.</a></p>
 <h2 id="strictmode-component"><a href="#strictmode-component" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code class="gatsby-code-text">StrictMode</code> Component</h2>
 <p><code class="gatsby-code-text">StrictMode</code> is a tool for highlighting potential problems in an application. Like <code class="gatsby-code-text">Fragment</code>, <code class="gatsby-code-text">StrictMode</code> does not render any visible UI. It activates additional checks and warnings for its descendants.</p>
 <blockquote>
@@ -1187,7 +1187,7 @@ In this case, the following message will be shown:</p>
 <li>Detecting unexpected side effects</li>
 </ul>
 <p>Additional functionality will be added with future releases of React.</p>
-<p><a href="/reactdoc/docs/strict-mode.html">Learn more about the <code class="gatsby-code-text">StrictMode</code> component here.</a></p>]]></description><link>https://reactjs.org/blog/2018/03/29/react-v-16-3.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/03/29/react-v-16-3.html</guid><pubDate>Thu, 29 Mar 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[Update on Async Rendering]]></title><description><![CDATA[<p>For over a year, the React team has been working to implement asynchronous rendering. Last month during his talk at JSConf Iceland, <a href="/reactdoc/blog/2018/03/01/sneak-peek-beyond-react-16.html">Dan unveiled some of the exciting new possibilities async rendering unlocks</a>. Now we’d like to share with you some of the lessons we’ve learned while working on these features, and some recipes to help prepare your components for async rendering when it launches.</p>
+<p><a href="/reactjs/docs/strict-mode.html">Learn more about the <code class="gatsby-code-text">StrictMode</code> component here.</a></p>]]></description><link>https://reactjs.org/blog/2018/03/29/react-v-16-3.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/03/29/react-v-16-3.html</guid><pubDate>Thu, 29 Mar 2018 07:00:00 GMT</pubDate></item><item><title><![CDATA[Update on Async Rendering]]></title><description><![CDATA[<p>For over a year, the React team has been working to implement asynchronous rendering. Last month during his talk at JSConf Iceland, <a href="/reactjs/blog/2018/03/01/sneak-peek-beyond-react-16.html">Dan unveiled some of the exciting new possibilities async rendering unlocks</a>. Now we’d like to share with you some of the lessons we’ve learned while working on these features, and some recipes to help prepare your components for async rendering when it launches.</p>
 <p>One of the biggest lessons we’ve learned is that some of our legacy component lifecycles tend to encourage unsafe coding practices. They are:</p>
 <ul>
 <li><code class="gatsby-code-text">componentWillMount</code></li>
@@ -1196,7 +1196,7 @@ In this case, the following message will be shown:</p>
 </ul>
 <p>These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)</p>
 <h2 id="gradual-migration-path"><a href="#gradual-migration-path" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gradual Migration Path</h2>
-<p><a href="/reactdoc/blog/2016/02/19/new-versioning-scheme.html">React follows semantic versioning</a>, so this change will be gradual. Our current plan is:</p>
+<p><a href="/reactjs/blog/2016/02/19/new-versioning-scheme.html">React follows semantic versioning</a>, so this change will be gradual. Our current plan is:</p>
 <ul>
 <li><strong>16.3</strong>: Introduce aliases for the unsafe lifecycles, <code class="gatsby-code-text">UNSAFE_componentWillMount</code>, <code class="gatsby-code-text">UNSAFE_componentWillReceiveProps</code>, and <code class="gatsby-code-text">UNSAFE_componentWillUpdate</code>. (Both the old lifecycle names and the new aliases will work in this release.)</li>
 <li><strong>A future 16.x release</strong>: Enable deprecation warning for <code class="gatsby-code-text">componentWillMount</code>, <code class="gatsby-code-text">componentWillReceiveProps</code>, and <code class="gatsby-code-text">componentWillUpdate</code>. (Both the old lifecycle names and the new aliases will work in this release, but the old names will log a DEV-mode warning.)</li>
@@ -1224,7 +1224,7 @@ In this case, the following message will be shown:</p>
 <p>Together with <code class="gatsby-code-text">componentDidUpdate</code>, this new lifecycle should cover all use cases for the legacy <code class="gatsby-code-text">componentWillReceiveProps</code>.</p>
 <blockquote>
 <p>Note:</p>
-<p>Both the older <code class="gatsby-code-text">componentWillReceiveProps</code> and the new <code class="gatsby-code-text">getDerivedStateFromProps</code> methods add significant complexity to components. This often leads to <a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html#common-bugs-when-using-derived-state">bugs</a>. Consider <strong><a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler alternatives to derived state</a></strong> to make components predictable and maintainable.</p>
+<p>Both the older <code class="gatsby-code-text">componentWillReceiveProps</code> and the new <code class="gatsby-code-text">getDerivedStateFromProps</code> methods add significant complexity to components. This often leads to <a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html#common-bugs-when-using-derived-state">bugs</a>. Consider <strong><a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler alternatives to derived state</a></strong> to make components predictable and maintainable.</p>
 </blockquote>
 <h3 id="new-lifecycle-getsnapshotbeforeupdate"><a href="#new-lifecycle-getsnapshotbeforeupdate" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New lifecycle: <code class="gatsby-code-text">getSnapshotBeforeUpdate</code></h3>
 <p><div class="gatsby-highlight">
@@ -1348,7 +1348,7 @@ In this case, the following message will be shown:</p>
 <blockquote>
 <p>Note</p>
 <p>Some advanced use-cases (e.g. libraries like Relay) may want to experiment with eagerly prefetching async data. An example of how this can be done is available <a href="https://gist.github.com/bvaughn/89700e525ff423a75ffb63b1b1e30a8f">here</a>.</p>
-<p>In the longer term, the canonical way to fetch data in React components will likely be based on the “suspense” API <a href="/reactdoc/blog/2018/03/01/sneak-peek-beyond-react-16.html">introduced at JSConf Iceland</a>. Both simple data fetching solutions and libraries like Apollo and Relay will be able to use it under the hood. It is significantly less verbose than either of the above solutions, but will not be finalized in time for the 16.3 release.</p>
+<p>In the longer term, the canonical way to fetch data in React components will likely be based on the “suspense” API <a href="/reactjs/blog/2018/03/01/sneak-peek-beyond-react-16.html">introduced at JSConf Iceland</a>. Both simple data fetching solutions and libraries like Apollo and Relay will be able to use it under the hood. It is significantly less verbose than either of the above solutions, but will not be finalized in time for the 16.3 release.</p>
 <p>When supporting server rendering, it’s currently necessary to provide the data synchronously – <code class="gatsby-code-text">componentWillMount</code> was often used for this purpose but the constructor can be used as a replacement. The upcoming suspense APIs will make async data fetching cleanly possible for both client and server rendering.</p>
 </blockquote>
 <h3 id="adding-event-listeners-or-subscriptions"><a href="#adding-event-listeners-or-subscriptions" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adding event listeners (or subscriptions)</h3>
@@ -1462,7 +1462,7 @@ In this case, the following message will be shown:</p>
 <h3 id="updating-state-based-on-props"><a href="#updating-state-based-on-props" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating <code class="gatsby-code-text">state</code> based on <code class="gatsby-code-text">props</code></h3>
 <blockquote>
 <p>Note:</p>
-<p>Both the older <code class="gatsby-code-text">componentWillReceiveProps</code> and the new <code class="gatsby-code-text">getDerivedStateFromProps</code> methods add significant complexity to components. This often leads to <a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html#common-bugs-when-using-derived-state">bugs</a>. Consider <strong><a href="/reactdoc/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler alternatives to derived state</a></strong> to make components predictable and maintainable.</p>
+<p>Both the older <code class="gatsby-code-text">componentWillReceiveProps</code> and the new <code class="gatsby-code-text">getDerivedStateFromProps</code> methods add significant complexity to components. This often leads to <a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html#common-bugs-when-using-derived-state">bugs</a>. Consider <strong><a href="/reactjs/blog/2018/06/07/you-probably-dont-need-derived-state.html">simpler alternatives to derived state</a></strong> to make components predictable and maintainable.</p>
 </blockquote>
 <p>Here is an example of a component that uses the legacy <code class="gatsby-code-text">componentWillReceiveProps</code> lifecycle to update <code class="gatsby-code-text">state</code> based on new <code class="gatsby-code-text">props</code> values:
 <div class="gatsby-highlight">
@@ -1809,7 +1809,7 @@ yarn add react-lifecycles-compat
 <p>On the first demo, Dan says: “We’ve built a generic way to ensure that high-priority updates don’t get blocked by a low-priority update, called <strong>time slicing</strong>. If my device is fast enough, it feels almost like it’s synchronous; if my device is slow, the app still feels responsive. It adapts to the device thanks to the <a href="https://developers.google.com/web/updates/2015/08/using-requestidlecallback">requestIdleCallback</a> API. Notice that only the final state was displayed; the rendered screen is always consistent and we don’t see visual artifacts of slow rendering causing a janky user experience.”</p>
 <p>On the second demo, Dan explains: “We’ve built a generic way for components to suspend rendering while they load async data, which we call <strong>suspense</strong>. You can pause any state update until the data is ready, and you can add async loading to any component deep in the tree without plumbing all the props and state through your app and hoisting the logic. On a fast network, updates appear very fluid and instantaneous without a jarring cascade of spinners that appear and disappear. On a slow network, you can intentionally design which loading states the user should see and how granular or coarse they should be, instead of showing spinners based on how the code is written. The app stays responsive throughout.”</p>
 <p>“Importantly, this is still the React you know. This is still the declarative component paradigm that you probably like about React.”</p>
-<p>We can’t wait to release these new async rendering features later this year. Follow this blog and <a href="https://twitter.com/reactjs">@reactjs on Twitter</a> for updates.</p>]]></description><link>https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html</guid><pubDate>Thu, 01 Mar 2018 08:00:00 GMT</pubDate></item><item><title><![CDATA[Behind the Scenes: Improving the Repository Infrastructure]]></title><description><![CDATA[<p>As we worked on <a href="/reactdoc/blog/2017/09/26/react-v16.0.html">React 16</a>, we revamped the folder structure and much of the build tooling in the React repository. Among other things, we introduced projects such as <a href="https://rollupjs.org/">Rollup</a>, <a href="https://prettier.io/">Prettier</a>, and <a href="https://developers.google.com/closure/compiler/">Google Closure Compiler</a> into our workflow. People often ask us questions about how we use those tools. In this post, we would like to share some of the changes that we’ve made to our build and test infrastructure in 2017, and what motivated them.</p>
+<p>We can’t wait to release these new async rendering features later this year. Follow this blog and <a href="https://twitter.com/reactjs">@reactjs on Twitter</a> for updates.</p>]]></description><link>https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html</link><guid isPermaLink="false">https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html</guid><pubDate>Thu, 01 Mar 2018 08:00:00 GMT</pubDate></item><item><title><![CDATA[Behind the Scenes: Improving the Repository Infrastructure]]></title><description><![CDATA[<p>As we worked on <a href="/reactjs/blog/2017/09/26/react-v16.0.html">React 16</a>, we revamped the folder structure and much of the build tooling in the React repository. Among other things, we introduced projects such as <a href="https://rollupjs.org/">Rollup</a>, <a href="https://prettier.io/">Prettier</a>, and <a href="https://developers.google.com/closure/compiler/">Google Closure Compiler</a> into our workflow. People often ask us questions about how we use those tools. In this post, we would like to share some of the changes that we’ve made to our build and test infrastructure in 2017, and what motivated them.</p>
 <p>While these changes helped us make React better, they don’t affect most React users directly. However, we hope that blogging about them might help other library authors solve similar problems. Our contributors might also find these notes helpful!</p>
 <h2 id="formatting-code-with-prettier"><a href="#formatting-code-with-prettier" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formatting Code with Prettier</h2>
 <p>React was one of the first large repositories to <a href="https://github.com/facebook/react/pull/9101">fully embrace</a> opinionated automatic code formatting with <a href="https://prettier.io/">Prettier</a>. Our current Prettier setup consists of:</p>
@@ -1875,7 +1875,7 @@ yarn add react-lifecycles-compat
 <p>Currently, all production React bundles <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/scripts/rollup/build.js#L235-L248">run through Google Closure Compiler in simple mode</a>, and we may look into enabling advanced optimizations in the future.</p>
 <h3 id="protecting-against-weak-dead-code-elimination"><a href="#protecting-against-weak-dead-code-elimination" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Protecting Against Weak Dead Code Elimination</h3>
 <p>While we use an efficient <a href="https://en.wikipedia.org/wiki/Dead_code_elimination">dead code elimination</a> solution in React itself, we can’t make a lot of assumptions about the tools used by the React consumers.</p>
-<p>Typically, when you <a href="/reactdoc/docs/optimizing-performance.html#use-the-production-build">configure a bundler for production</a>, you need to tell it to substitute <code class="gatsby-code-text">process.env.NODE_ENV</code> with the <code class="gatsby-code-text">&quot;production&quot;</code> string literal. This process is sometimes called “envification”. Consider this code:</p>
+<p>Typically, when you <a href="/reactjs/docs/optimizing-performance.html#use-the-production-build">configure a bundler for production</a>, you need to tell it to substitute <code class="gatsby-code-text">process.env.NODE_ENV</code> with the <code class="gatsby-code-text">&quot;production&quot;</code> string literal. This process is sometimes called “envification”. Consider this code:</p>
 <div class="gatsby-highlight" data-language="jsx"><pre class="gatsby-code-jsx"><code class="gatsby-code-jsx"><span class="token keyword">if</span> <span class="token punctuation">(</span>process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">!==</span> <span class="token string">"production"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token comment">// development-only code</span>
 <span class="token punctuation">}</span></code></pre></div>
@@ -1912,9 +1912,9 @@ yarn add react-lifecycles-compat
 
   <span class="gatsby-resp-image-wrapper" style="position: relative; display: block;  max-width: 600px; margin-left: auto; margin-right: auto;">
     <span class="gatsby-resp-image-background-image" style="padding-bottom: 33.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAABYlAAAWJQFJUiTwAAABI0lEQVQY04WQ3XKCMBCFef+X6k2tkAIGRa1Ox5kOGiCAkt81gtINM73uudicTTaz324w/qfnn9Bi6u739nr9eX8rDvvAzLLWAlitNXqttFJq9to/WOsLAB7OPMfHNE3DOJqm7rsuSJKURITSLM/zMAw3m3WWZXEcRxFZpWmSovxJSPx9WHXNBcBJIWeQMbgwxmteMnY+nxl63vCm5byu8bKsGCs5523TFkXBWFVzXlXV6XQCgGEYAqSaCT2b0lIpibTaeGYAP5EUAiP4RAsh0HjyYXDOBYvFB11RhM2zr3BB42hN413yucvpcUOPOFG4XOJoOAAhZLfdK6mmWb7zvBvci9ES5A1kb2+duXVa9La/GiwFa6XE9gIB8cPr9cLo1+7cL+jygk7PcoV8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;">
-      <img class="gatsby-resp-image-image" style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;" alt="React DevTools on a website with development version of React" title="" src="/reactdoc/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1e9b4.png" srcset="/reactdoc/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1cd08.png 210w,
-/reactdoc/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-9b07a.png 420w,
-/reactdoc/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1e9b4.png 600w" sizes="(max-width: 600px) 100vw, 600px">
+      <img class="gatsby-resp-image-image" style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;" alt="React DevTools on a website with development version of React" title="" src="/reactjs/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1e9b4.png" srcset="/reactjs/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1cd08.png 210w,
+/reactjs/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-9b07a.png 420w,
+/reactjs/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1e9b4.png 600w" sizes="(max-width: 600px) 100vw, 600px">
     </span>
   </span>
   
@@ -1929,7 +1929,7 @@ yarn add react-lifecycles-compat
 <p>For now, have decided to only convert the source code to ES Modules, but not the tests. We use powerful utilities like <code class="gatsby-code-text">jest.resetModules()</code> and want to retain tighter control over when the modules get initialized in tests. In order to consume ES Modules from our tests, we enabled the <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/scripts/jest/preprocessor.js#L28-L29">Babel CommonJS transform</a>, but only for the test environment.</p>
 <h3 id="running-tests-in-production-mode"><a href="#running-tests-in-production-mode" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Running Tests in Production Mode</h3>
 <p>Historically, we’ve been running all tests in a development environment. This let us assert on the warning messages produced by React, and seemed to make general sense. However, even though we try to keep the differences between the development and production code paths minimal, occasionally we would make a mistake in production-only code branches that weren’t covered by tests, and cause an issue at Facebook.</p>
-<p>To solve this problem, we have added a new <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/package.json#L110"><code class="gatsby-code-text">yarn test-prod</code></a> command that runs on CI for every pull request, and <a href="https://github.com/facebook/react/pull/11616">executes all React test cases in the production mode</a>. We wrapped any assertions about warning messages into development-only conditional blocks in all tests so that they can still check the rest of the expected behavior in both environments. Since we have a custom Babel transform that replaces production error messages with the <a href="/reactdoc/blog/2016/07/11/introducing-reacts-error-code-system.html">error codes</a>, we also added a <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/scripts/jest/setupTests.js#L91-L126">reverse transformation</a> as part of the production test run.</p>
+<p>To solve this problem, we have added a new <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/package.json#L110"><code class="gatsby-code-text">yarn test-prod</code></a> command that runs on CI for every pull request, and <a href="https://github.com/facebook/react/pull/11616">executes all React test cases in the production mode</a>. We wrapped any assertions about warning messages into development-only conditional blocks in all tests so that they can still check the rest of the expected behavior in both environments. Since we have a custom Babel transform that replaces production error messages with the <a href="/reactjs/blog/2016/07/11/introducing-reacts-error-code-system.html">error codes</a>, we also added a <a href="https://github.com/facebook/react/blob/cc52e06b490e0dc2482b345aa5d0d65fae931095/scripts/jest/setupTests.js#L91-L126">reverse transformation</a> as part of the production test run.</p>
 <h3 id="using-public-api-in-tests"><a href="#using-public-api-in-tests" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using Public API in Tests</h3>
 <p>When we were <a href="https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/">rewriting the React reconciler</a>, we recognized the importance of writing tests against the public API instead of internal modules. If the test is written against the public API, it is clear what is being tested from the user’s perspective, and you can run it even if you rewrite the implementation from scratch.</p>
 <p>We reached out to the wonderful React community <a href="https://github.com/facebook/react/issues/11299">asking for help</a> converting the remaining tests to use the public API. Almost all of the tests are converted now! The process wasn’t easy. Sometimes a unit test just calls an internal method, and it’s hard to figure out what the observable behavior from user’s point of view was supposed to be tested. We found a few strategies that helped with this. The first thing we would try is to find the git history for when the test was added, and find clues in the issue and pull request description. Often they would contain reproducing cases that ended up being more valuable than the original unit tests! A good way to verify the guess is to try commenting out individual lines in the source code being tested. If the test fails, we know for sure that it stresses the given code path.</p>
@@ -1955,7 +1955,7 @@ yarn add react-lifecycles-compat
 <p>These fixtures are implemented as a React app located in <a href="https://github.com/facebook/react/tree/d906de7f602df810c38aa622c83023228b047db6/fixtures/dom"><code class="gatsby-code-text">fixtures/dom</code></a>. Adding a fixture involves writing a React component with a description of the expected behavior, and links to the appropriate issues and browser quirks, like <a href="https://github.com/facebook/react/pull/11760">in this example</a>:</p>
 <img src="https://user-images.githubusercontent.com/590904/33555298-dd52fb4e-d8cd-11e7-80e9-8369538eb633.png" style="max-width:100%" alt="DOM fixture example">
 <p>The fixture app lets you choose a version of React (local or one of the published versions) which is handy for comparing the behavior before and after the changes. When we change the behavior related to how we interact with the DOM, we can verify that it didn’t regress by going through the related fixtures in different browsers.</p>
-<p>In some cases, a change proved to be so complex that it necessitated a standalone purpose-built fixture to verify it. For example, the <a href="/reactdoc/blog/2017/09/08/dom-attributes-in-react-16.html">DOM attribute handling in React 16</a> was very hard to pull off with confidence at first. We kept discovering different edge cases, and almost gave up on doing it in time for the React 16 release. However, then we’ve built an <a href="https://github.com/facebook/react/tree/d906de7f602df810c38aa622c83023228b047db6/fixtures/attribute-behavior">“attribute table” fixture</a> that renders all supported attributes and their misspellings with previous and next version of React, and displays the differences. It took a few iterations (the key insight was to group attributes with similar behavior together) but it ultimately allowed us to fix all major issues in just a few days.</p>
+<p>In some cases, a change proved to be so complex that it necessitated a standalone purpose-built fixture to verify it. For example, the <a href="/reactjs/blog/2017/09/08/dom-attributes-in-react-16.html">DOM attribute handling in React 16</a> was very hard to pull off with confidence at first. We kept discovering different edge cases, and almost gave up on doing it in time for the React 16 release. However, then we’ve built an <a href="https://github.com/facebook/react/tree/d906de7f602df810c38aa622c83023228b047db6/fixtures/attribute-behavior">“attribute table” fixture</a> that renders all supported attributes and their misspellings with previous and next version of React, and displays the differences. It took a few iterations (the key insight was to group attributes with similar behavior together) but it ultimately allowed us to fix all major issues in just a few days.</p>
 <br>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We went through the table to vet the new behavior for every case (and discovered some old bugs too) <a href="https://t.co/cmF2qnK9Q9">pic.twitter.com/cmF2qnK9Q9</a></p>&mdash; Dan Abramov (@dan_abramov) <a href="https://twitter.com/dan_abramov/status/906244378066345984?ref_src=twsrc%5Etfw">September 8, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Going through the fixtures is still a lot of work, and we are considering automating some of it. Still, the fixture app is invaluable even as documentation for the existing behavior and all the edge cases and browser bugs that React currently handles. Having it gives us confidence in making significant changes to the logic without breaking important use cases. Another improvement we’re considering is to have a GitHub bot build and deploy the fixtures automatically for every pull request that touches the relevant files so anyone can help with browser testing.</p>
@@ -2033,10 +2033,10 @@ type Check<span class="token operator">&lt;</span>_X<span class="token punctuati
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Release Script overview"
         title=""
-        src="/reactdoc/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-a0a5f.png"
-        srcset="/reactdoc/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-d0a04.png 210w,
-/reactdoc/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-c8d6c.png 420w,
-/reactdoc/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-a0a5f.png 822w"
+        src="/reactjs/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-a0a5f.png"
+        srcset="/reactjs/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-d0a04.png 210w,
+/reactjs/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-c8d6c.png 420w,
+/reactjs/static/release-script-build-overview-adca79c3a0e003b317fe62e68ce9d4a0-a0a5f.png 822w"
         sizes="(max-width: 822px) 100vw, 822px"
       />
     </span>
@@ -2057,13 +2057,13 @@ type Check<span class="token operator">&lt;</span>_X<span class="token punctuati
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Release Script build confirmation screen"
         title=""
-        src="/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-acf85.png"
-        srcset="/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-c1418.png 210w,
-/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-5d5d8.png 420w,
-/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-acf85.png 840w,
-/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-de0cd.png 1260w,
-/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-bd6c2.png 1680w,
-/reactdoc/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-d15b8.png 1765w"
+        src="/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-acf85.png"
+        srcset="/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-c1418.png 210w,
+/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-5d5d8.png 420w,
+/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-acf85.png 840w,
+/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-de0cd.png 1260w,
+/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-bd6c2.png 1680w,
+/reactjs/static/release-script-build-confirmation-17f44f353d82a22f6a18707956ad065f-d15b8.png 1765w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
@@ -2084,11 +2084,11 @@ type Check<span class="token operator">&lt;</span>_X<span class="token punctuati
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Release Script publish confirmation screen"
         title=""
-        src="/reactdoc/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-acf85.png"
-        srcset="/reactdoc/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-c1418.png 210w,
-/reactdoc/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-5d5d8.png 420w,
-/reactdoc/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-acf85.png 840w,
-/reactdoc/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-bd35c.png 1178w"
+        src="/reactjs/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-acf85.png"
+        srcset="/reactjs/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-c1418.png 210w,
+/reactjs/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-5d5d8.png 420w,
+/reactjs/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-acf85.png 840w,
+/reactjs/static/release-script-publish-confirmation-a3846d4b3e50d29415846b58612310f2-bd35c.png 1178w"
         sizes="(max-width: 840px) 100vw, 840px"
       />
     </span>
